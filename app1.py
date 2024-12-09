@@ -74,7 +74,7 @@ def get_market_price(ticker_symbol):
     """
     try:
         stock = yf.Ticker(ticker_symbol)
-        hist = stock.history(period='1d')
+        hist = stock.history(period='2d')
         
         if not hist.empty:
             current = hist['Close'].iloc[-1]
