@@ -1,1 +1,1 @@
-yfinance
+yfinance ==1.40.2
